@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{83C648F2-53BA-48A6-9F17-E2DD6E100F13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pariplay.DataAccessLayer.DataObjects", "Pariplay.DataAccessLayer.DataObjects\Pariplay.DataAccessLayer.DataObjects.csproj", "{65ED7A3D-BC4E-460A-9E15-75328B17CC81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pariplay.API", "Pariplay\Pariplay.API.csproj", "{0A246CF9-B098-4DDB-A275-B146D6268D77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pariplay.DataAccessLayer.Abstraction", "Pariplay.DataAccessLayer.Abstraction\Pariplay.DataAccessLayer.Abstraction.csproj", "{A51D9433-22CE-4668-901F-29BB689B0583}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{D9B9E888-43AD-4E4F-A7B0-E22017DD9B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pariplay.Models", "Pariplay.Models\Pariplay.Models.csproj", "{6FD38883-2C81-4A61-AE96-72F8ACA35C33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pariplay.DataAccessLayer", "Pariplay.DataAccessLayer\Pariplay.DataAccessLayer.csproj", "{FAA7A8B6-1CE0-4290-BD61-7173198C096C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65ED7A3D-BC4E-460A-9E15-75328B17CC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65ED7A3D-BC4E-460A-9E15-75328B17CC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65ED7A3D-BC4E-460A-9E15-75328B17CC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65ED7A3D-BC4E-460A-9E15-75328B17CC81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A246CF9-B098-4DDB-A275-B146D6268D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A246CF9-B098-4DDB-A275-B146D6268D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A246CF9-B098-4DDB-A275-B146D6268D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A246CF9-B098-4DDB-A275-B146D6268D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51D9433-22CE-4668-901F-29BB689B0583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51D9433-22CE-4668-901F-29BB689B0583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51D9433-22CE-4668-901F-29BB689B0583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51D9433-22CE-4668-901F-29BB689B0583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD38883-2C81-4A61-AE96-72F8ACA35C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD38883-2C81-4A61-AE96-72F8ACA35C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD38883-2C81-4A61-AE96-72F8ACA35C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD38883-2C81-4A61-AE96-72F8ACA35C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA7A8B6-1CE0-4290-BD61-7173198C096C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA7A8B6-1CE0-4290-BD61-7173198C096C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA7A8B6-1CE0-4290-BD61-7173198C096C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA7A8B6-1CE0-4290-BD61-7173198C096C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65ED7A3D-BC4E-460A-9E15-75328B17CC81} = {83C648F2-53BA-48A6-9F17-E2DD6E100F13}
+		{A51D9433-22CE-4668-901F-29BB689B0583} = {83C648F2-53BA-48A6-9F17-E2DD6E100F13}
+		{6FD38883-2C81-4A61-AE96-72F8ACA35C33} = {D9B9E888-43AD-4E4F-A7B0-E22017DD9B97}
+		{FAA7A8B6-1CE0-4290-BD61-7173198C096C} = {83C648F2-53BA-48A6-9F17-E2DD6E100F13}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8550482C-34FF-4033-9112-1038CA1EB372}
+	EndGlobalSection
+EndGlobal
